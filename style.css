@@ -27,7 +27,7 @@ body {
 main {
     background-color: var(--cor4);
     height: 565px;
-    width: 350px;
+    width: 325px;
     border-radius: 16px;
     text-align: center;
 }
@@ -75,7 +75,7 @@ ul {
 }
 
 li {
-    width: 300px;
+    width: 280px;
     font-size: .8rem;
     background-color: var(--cor3);
     border-radius: 8px;
@@ -102,4 +102,40 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+footer p {
+    font-size: 0.7rem;
+    color: var(--cor1);
+}
+
+
+
+@media screen and (min-width: 800px) {
+    main {
+        height: 580px;
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        height: 600px;
+        width: 400px;
+    }
+
+    
+
+    .profile h1 {
+        font-size: 1.6rem;
+    }
+
+    .profile h2 {
+        font-size: 0.9rem;
+    }
+
+    li {
+        padding: 14px;
+        width: 315px;
+    }
 }
