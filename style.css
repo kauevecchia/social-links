@@ -38,9 +38,9 @@ main {
 
 .profile img {
     border-radius: 50%;
-    margin: 12px;
-    height: 100px;
-    width: 100px;
+    margin: 16px;
+    height:  80px;
+    width: 80px;
 }
 
 .profile h1 {
@@ -104,12 +104,13 @@ footer {
     width: 100%;
 }
 
-footer p {
-    font-size: 0.7rem;
-    color: var(--cor1);
+.attribution > p {
+    font-size: 0.5rem;
 }
 
-
+.attribution a:hover {
+    color: var(--cor2);
+}
 
 @media screen and (min-width: 800px) {
     main {
@@ -120,11 +121,14 @@ footer p {
 
 @media screen and (min-width: 1200px) {
     main {
-        height: 600px;
+        height: 620px;
         width: 400px;
     }
 
-    
+    .profile img {
+        height: 100px;
+        width: 100px;
+    }
 
     .profile h1 {
         font-size: 1.6rem;
