@@ -83,6 +83,7 @@ li {
     margin: 16px;
     color: var(--cor2);
     font-weight: 600;
+    cursor: pointer;
 }
 
 li:hover {
@@ -104,8 +105,8 @@ footer {
     width: 100%;
 }
 
-.attribution > p {
-    font-size: 0.5rem;
+.attribution  p {
+    font-size: 0.8rem;
 }
 
 .attribution a:hover {
